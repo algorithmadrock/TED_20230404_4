@@ -8,8 +8,7 @@
          É importante verificar que a pilha deve ter, no mínimo 2 valores para fazer a operação
      O projeto deve ter uma classe de controle (NPRController) que inicializa uma nova Pilha e deve ter duas operações:
         Operação insereValor(Pilha p, int valor):void, faz um push() na pilha
-        Operação npr(Pilha p, String op):int. O método deve verificar se a String se trata de uma operação (+,-,*,/), verifica se é possível fazer 2 pop() e, em sendo 
-possível, fazer os 2 pop(), fazer a operação, gravar em uma variável resultado (que é o retorno da operação) e fazer o push() do resultado.
+        Operação npr(Pilha p, String op):int. O método deve verificar se a String se trata de uma operação (+,-,*,/), verifica se é possível fazer 2 pop() e, em sendo possível, fazer os 2 pop(), fazer a operação, gravar em uma variável resultado (que é o retorno da operação) e fazer o push() do resultado.
         Para operações de subtração e divisão (que a ordem importa), fazer o valor do 2º pop() operação valor do 1º pop(), ou seja o valor mais antigo à esquerda da operação
         Se não houverem 2 valores, deve-se lançar um Exception de pilha com valores insuficientes
      A classe view Principal, deve inicializar a pilha e solicitar dados (número ou operação) ao usuário até alguma condição de encerramento, definido por você.
